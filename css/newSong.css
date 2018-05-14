@@ -1,0 +1,74 @@
+/*轮播图的可视区*/
+.new_song_box {
+  z-index: 2;
+  overflow: hidden;
+}
+.section_inner {
+  position: relative;
+  z-index: 2;
+}
+
+/*首页的标题*/
+.index_hd {
+  position: relative;
+  padding-top: 4.16667%;
+  padding-bottom: 2%;
+}
+
+.index_title {
+  display: block;
+  width: 196px;
+  height: 40px;
+  margin: 0 auto;
+  /*css3为不同的设备分配不同分辨率的背景图*/
+  background-image: -webkit-image-set(url(../images/index_tit.png) 1x, url(../images/index_tit@2x.png) 2x);
+}
+
+/*btn按钮*/
+.btn {
+  border: 1px solid #c9c9c9;
+  color: #333;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-right: 6px;
+  padding: 0 23px;
+  width: 100px;
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+  white-space: nowrap;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+  left:0;
+  top: 114px;
+  margin-top:-10;
+}
+.btn:hover {
+  background-color: #ededed;
+}
+/*播放icon*/
+.icon_play {
+  display: inline-block;
+  width:13px;
+  height: 16px;
+  background-image: -webkit-image-set(url(../images/icon_sprite.png) 1x,url(../images/icon_sprite@2x.png) 2x);
+  background-repeat:no-repeat;
+  background-position: -60px -220px;
+  margin-left: -8px;;
+  vertical-align: -3px;
+}
+/*分类列表*/
+.index_list {
+  height: 50px;
+  text-align: center;
+}
+.index_list span {
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 24px;
+}
+.index_list :first-child {
+  color: #31c27c;
+}

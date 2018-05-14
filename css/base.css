@@ -1,0 +1,180 @@
+@charset "utf-8";
+@font-face {
+  font-family: poppin;
+  src: url("../font/poppin.eot");
+  src: url("../font/poppin-1.eot#iefix") format("embedded-opentype"), url("../font/poppin.ttf") format("truetype")
+}
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+input,
+lengend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0
+}
+
+body,
+button,
+input,
+select,
+textarea,
+th {
+  color: #333;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: poppin, Tahoma, Arial, \5FAE\8F6F\96C5\9ED1, sans-serif;
+  font-family: Tahoma, Arial, \5FAE\8F6F\96C5\9ED1, sans-serif/9
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%
+}
+
+li {
+  list-style: none
+}
+
+img {
+  border: 0 none;
+  -ms-interpolation-mode: bicubic;
+  image-rendering: optimizeQuality
+}
+
+input[type=button],
+input[type=submit] {
+  cursor: pointer
+}
+
+button {
+  cursor: pointer
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+a {
+  color: #333;
+  text-decoration: none
+}
+
+a:hover {
+  color: #31c27c;
+  text-decoration: none
+}
+
+a:focus,
+button:focus,
+input:focus {
+  outline: 0
+}
+
+.os_xp,
+.os_xp button,
+.os_xp input,
+.os_xp select,
+.os_xp textarea,
+.os_xp th {
+  font-family: Arial, Tahoma, \5b8b\4f53, sans-serif
+}
+
+.data {
+  display: none
+}
+
+.hide {
+  opacity: 0
+}
+
+.icon_txt {
+  font: 0/0 a
+}
+
+.top_skip {
+  position: absolute;
+  top: -20px;
+  left: 0
+}
+
+.c_tx_title {
+  color: #000
+}
+
+.c_tx_normal {
+  color: #333
+}
+
+.c_tx_thin {
+  color: #999
+}
+
+.c_tx_current,
+.c_tx_highlight {
+  color: #31c27c
+}
+
+/*滚动条样式**/
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px
+}
+
+::-webkit-scrollbar-track {
+  background: 0 0
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666
+}
+
+::-webkit-scrollbar-resizer {
+  background-color: #FF6E00
+}
+
+body ::-webkit-scrollbar {
+  width: 8px
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: #ddd
+}
+/*版心*/
+.w {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative
+}
